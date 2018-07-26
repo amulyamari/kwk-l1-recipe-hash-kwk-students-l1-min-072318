@@ -1,5 +1,3 @@
-#code your solutions here
-
 perfect_10_recipe = {
   :agave => "1/4 cup",
   :olive_oil => "1/2 cup",
@@ -17,8 +15,9 @@ def recipe_ingredients(perfect_10_recipe)
     return perfect_10_recipe 
 end
 
-#2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
+
 def amount_of_chocolate_chips(perfect_10_recipe)
+  puts perfect_10_recipe["mini dark chocolate chips"]
 end
 
 #3: Use `puts` to print out every ingredient and amount in the hash by iterating through the collection. You'll want to use the `each` method.
