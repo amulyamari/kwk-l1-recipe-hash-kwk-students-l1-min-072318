@@ -13,8 +13,6 @@ perfect_10_recipe = {
   :baking_powder => "1/2 teaspoon"}
 
 
-
-#2. Write a method that simply returns (not puts) your perfect_10 hash
 def recipe_ingredients(perfect_10_recipe)
     return perfect_10_recipe 
 end
